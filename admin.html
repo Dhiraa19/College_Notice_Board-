@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+
+    <textarea id="noticeText" placeholder="Enter notice or circular"></textarea>
+
+    <select id="type">
+        <option value="Notice">Notice</option>
+    </select>
+
+    <button onclick="addNotice()">Add</button>
+
+    <h3>All Notices</h3>
+    <div id="noticeBox"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
