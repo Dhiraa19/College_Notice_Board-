@@ -1,0 +1,9 @@
+{
+  "name": "Notice Board System",
+  "short_name": "NoticeBoard",
+  "start_url": "login.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00416A"
+}
+
