@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00416A, #E4E5E6);
+}
+
+.login-box {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.login-box input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #00416A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.notice-card {
+    background: #eaeaea;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
